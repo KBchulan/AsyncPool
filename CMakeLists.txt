@@ -9,4 +9,5 @@ aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_LISTS)
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 add_executable(AsyncPool ${SRC_LISTS}
-        src/main.cpp)
+        include/ThreadPool.hpp
+        src/ThreadPool.cpp)
