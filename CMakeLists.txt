@@ -10,5 +10,4 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 add_executable(AsyncPool ${SRC_LISTS}
         include/ThreadPool.hpp
-        src/ThreadPool.cpp
-        src/main.cpp)
+        src/ThreadPool.cpp)
